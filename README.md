@@ -32,4 +32,12 @@ prints all snapshots that will be deleted, but without deleting them.
 Running "snapshotcleaner" with the command-line option "--recursive" means that the program
 deletes zfs snapshots from the child datasets of "<dataset>". 
 
-Rui setyp.py file that installs the program file at "/usr/local/bin/snapshotcleaner" and all its python libraries at the directory "/usr/local/lib/snapshotcleaner/".
+
+## Installation:
+Clone the repository:
+  
+  git clone https://github.com/mikaelmoutakis/snapshotcleaner
+  cd snapshotcleaner
+  python3 setup.py install
+  
+Running `python3 setyp.py install` installs the program file at "/usr/local/bin/snapshotcleaner" and all its python libraries at the directory "/usr/local/lib/snapshotcleaner/".
