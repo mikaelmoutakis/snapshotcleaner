@@ -108,3 +108,7 @@ if __name__ == "__main__":
         arguments["--recursive"],
         arguments["--dry-run"],
     )
+
+#TODO: check that the zfs commands are valid before testing
+#TODO: check that the setup.py is valid wrt the run command
+#TODO: test on a throwaway datset with child datasets
